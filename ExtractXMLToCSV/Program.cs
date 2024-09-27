@@ -23,7 +23,7 @@ class Program
                     string lob = node.SelectSingleNode("lob").InnerText;
                     string ruleId = node.SelectSingleNode("id").InnerText;
 
-                    writer.WriteLine($"{lob},{ruleId},{...}");
+                    writer.WriteLine($"{lob},{ruleId}");
                 }
             }
         }
